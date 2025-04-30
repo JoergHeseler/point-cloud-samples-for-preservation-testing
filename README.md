@@ -1,6 +1,6 @@
 # 3D Sample Files for Digital Preservation Testing
 
-This repository contains sample 3D files in various "archive-friendly" formats and subversions, designed for testing with digital preservation tools developed within the [NFDI4Culture](https://nfdi4culture.de/) project. The selection of these volume-based formats and point cloud formats, including glTF, DAE, X3D, OBJ, PLY, STL, and E57, is based on a prior [Identification of Archive-Friendly Formats](https://docs.google.com/spreadsheets/d/1c3EeDgJ2qWNWc35F35atYD4mgLkvk5tS7q632Ti-eDE/edit?gid=852170763#gid=852170763).
+This repository contains sample 3D pointcloud files in various "archive-friendly" formats and subversions, designed for testing with digital preservation tools developed within the [NFDI4Culture](https://nfdi4culture.de/) project. The selection of these pointcloud formats, including E57, LAS and PLY, is based on a prior [Identification of Archive-Friendly Formats](https://docs.google.com/spreadsheets/d/1c3EeDgJ2qWNWc35F35atYD4mgLkvk5tS7q632Ti-eDE/edit?gid=852170763#gid=852170763).
 
 File conversions of sample files of this repository were performed using [Blender](https://www.blender.org/), [MeshLab](https://www.meshlab.net/), and [CloudCompare](https://www.danielgm.net/cc/). These files aim to support robust workflows for validating and preserving 3D data.
 
@@ -8,11 +8,11 @@ File conversions of sample files of this repository were performed using [Blende
 
 This repository provides the following objects in different formats:
 
-| Object     | Description                   | Vertices | Triangles | Additional Features                                | Preview                             |
-| ---------- | ----------------------------- | -------- | --------- | -------------------------------------------------- | ----------------------------------- |
-| `minimal`  | Empty scene                   | 0        | 0         | None                                               | ![](.github/media/minimal.jpg)      |
-| `cube`     | Simple box mesh               | 8        | 12        | None                                               | ![](.github/media/cube.jpg)         |
-| `cockatoo` | 3D-scanned porcelain cockatoo | 518,889  | 776,822   | Colors, textures, cameras, lighting (if supported) | ![](.github/media/cockatoo.jpg)[^1] |
+| Object     | Description                   | Points  | Additional Features | Preview                             |
+| ---------- | ----------------------------- | ------- | ------------------- | ----------------------------------- |
+| `minimal`  | Empty scene                   | 0       | None                | ![](.github/media/minimal.jpg)      |
+| `cube`     | Simple box mesh               | 4       | None                | ![](.github/media/cube.jpg)         |
+| `cockatoo` | 3D-scanned porcelain cockatoo | 518,889 | Colors              | ![](.github/media/cockatoo.jpg)[^1] |
 
 ### File Naming Convention
 
@@ -24,7 +24,7 @@ Files are named as follows:
 
 ## Outlook and Conclusion
 
-Validators for E57, DAE, glTF, STL, and X3D have been written or identified. However, tools for OBJ and PLY are still required and must be developed following their official specifications. Once these are available, the corresponding 3D sample files will be further validated and refined to ensure compliance, enhancing the robustness of digital preservation workflows. Contributions to this effort are welcome.
+Validators for E57 and LAS have been identified. However, tools for PLY are still required and must be developed following their official specifications. Once these are available, the corresponding 3D sample files will be further validated and refined to ensure compliance, enhancing the robustness of digital preservation workflows. Contributions to this effort are welcome.
 
 ## Related Projects
 
