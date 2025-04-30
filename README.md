@@ -1,6 +1,6 @@
-# 3D Pointcloud Samples for Preservation Testing
+# Point Cloud Samples for Preservation Testing
 
-This repository contains sample 3D pointcloud files in various "archive-friendly" formats and subversions, designed for testing with digital preservation tools developed within the [NFDI4Culture](https://nfdi4culture.de/) project. The selection of these pointcloud formats, including E57<!-- , LAS--> and PLY, is based on a prior identification of [Archive-Friendly 3D Formats](https://docs.google.com/spreadsheets/d/1c3EeDgJ2qWNWc35F35atYD4mgLkvk5tS7q632Ti-eDE/edit?gid=852170763#gid=852170763).
+This repository contains sample 3D point cloud files in various "archive-friendly" formats and subversions, designed for testing with digital preservation tools developed within the [NFDI4Culture](https://nfdi4culture.de/) project. The selection of these point cloud formats, including E57<!-- , LAS--> and PLY, is based on a prior identification of [Archive-Friendly 3D Formats](https://docs.google.com/spreadsheets/d/1c3EeDgJ2qWNWc35F35atYD4mgLkvk5tS7q632Ti-eDE/edit?gid=852170763#gid=852170763).
 
 File conversions of sample files of this repository were performed using [Blender](https://www.blender.org/), [MeshLab](https://www.meshlab.net/), and [CloudCompare](https://www.danielgm.net/cc/). These files aim to support robust workflows for validating and preserving 3D data.
 
