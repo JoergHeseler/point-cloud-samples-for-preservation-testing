@@ -11,7 +11,7 @@ This repository provides the following objects in different formats:
 | Object     | Description                   | Points  | Additional Features | Preview                             |
 | ---------- | ----------------------------- | ------- | ------------------- | ----------------------------------- |
 | `minimal`  | Empty scene                   | 0       | None                | ![](.github/media/minimal.jpg)      |
-| `cube`     | Simple box mesh               | 4       | None                | ![](.github/media/cube.jpg)         |
+| `cube`     | Simple box                    | 4       | None                | ![](.github/media/cube.jpg)         |
 | `cockatoo` | 3D-scanned porcelain cockatoo | 518,889 | Colors              | ![](.github/media/cockatoo.jpg)[^1] |
 
 ### File Naming Convention
