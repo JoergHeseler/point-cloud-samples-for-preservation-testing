@@ -1,4 +1,4 @@
-# 3D Pointcloud Samples for Digital Preservation Testing
+# 3D Pointcloud Samples for Preservation Testing
 
 This repository contains sample 3D pointcloud files in various "archive-friendly" formats and subversions, designed for testing with digital preservation tools developed within the [NFDI4Culture](https://nfdi4culture.de/) project. The selection of these pointcloud formats, including E57<!-- , LAS--> and PLY, is based on a prior identification of [Archive-Friendly 3D Formats](https://docs.google.com/spreadsheets/d/1c3EeDgJ2qWNWc35F35atYD4mgLkvk5tS7q632Ti-eDE/edit?gid=852170763#gid=852170763).
 
