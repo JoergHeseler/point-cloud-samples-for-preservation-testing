@@ -1,0 +1,1 @@
+Since neither MeshLab 2023.12 nor CloudCompare v2.13.2 could generate a minimal E57 file, a custom Python script based on the pye57-0.4.16 library was developed to create the file. The source code is located in the [`src`](./src/) directory.
