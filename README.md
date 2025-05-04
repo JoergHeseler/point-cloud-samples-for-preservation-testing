@@ -8,11 +8,11 @@ File conversions of sample files of this repository were performed using [Blende
 
 This repository provides the following objects in different formats:
 
-| Object     | Description                   | Points  | Additional Features | Preview                                                                    |
-| ---------- | ----------------------------- | ------- | ------------------- | -------------------------------------------------------------------------- |
-| `minimal`  | Empty scene                   | 0       | None                | ![](.github/media/minimal.jpg)                                             |
-| `cube`     | Simple box                    | 4       | None                | ![](.github/media/cube.jpg)                                                |
-| `cockatoo` | 3D-scanned porcelain cockatoo | 518,889 | Colors              | ![](.github/media/cockatoo.jpg)[^1] (simplified for illustration purposes) |
+| Object     | Description                   | Points                      | Additional Features | Preview                                                                    |
+| ---------- | ----------------------------- | --------------------------- | ------------------- | -------------------------------------------------------------------------- |
+| `minimal`  | Empty scene                   | 0 (if allowed, otherwise 1) | None                | ![](.github/media/minimal.jpg)                                             |
+| `cube`     | Simple box                    | 4                           | None                | ![](.github/media/cube.jpg)                                                |
+| `cockatoo` | 3D-scanned porcelain cockatoo | 518,889                     | Colors              | ![](.github/media/cockatoo.jpg)[^1] (simplified for illustration purposes) |
 
 ### File Naming Convention
 
