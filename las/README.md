@@ -1,1 +1,1 @@
-All E57 files were validated using the [offical E57 validation tool](http://www.libe57.org/download.html).
+All LAS files were validated using the [LAStools](https://lastools.github.io/).
