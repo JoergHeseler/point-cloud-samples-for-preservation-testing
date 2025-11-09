@@ -28,7 +28,7 @@ Validators for E57 and LAS have been identified. However, tools for PLY are stil
 
 ## Related Projects
 
-- [NFDI4Culture 3D Reference Implementations](https://github.com/JoergHeseler/nfdi4culture-3d-reference-implementations)
+- [NFDI4Culture 3D Reference Implementations](https://git.slub-dresden.de/nfdi4culturedigitalpreservation/nfdi4culture-3d-reference-implementations)
 
 ## Acknowledgments
 
